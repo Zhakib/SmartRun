@@ -1,0 +1,221 @@
+@media (max-width: 1100px){
+    .container{
+        width: 760px;
+    }
+    .advantages{
+        &__items{
+            width:760px
+        }
+    }
+}
+
+@media (max-width: 950px){
+    .container{
+        width: 640px;
+    }
+    .advantages{
+        &__items{
+            width: 640px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 750px){
+    .container{
+        width: 400px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .header{
+        &__logo{
+            width: 208px;
+            img {
+                width: 100% ;
+            }
+        }
+        &__official{
+            display: none;
+        }
+    }
+    .promo{
+        &__items{
+            width: 100%;
+        }
+    }
+    .advantages{
+        padding: 30px 0;
+        &__items{
+            width: 100%;
+            flex-direction: column;
+            margin-top: 20px;
+            align-items: center;
+        }
+        &__item{
+            width: 243px;
+            margin-top: 20px;
+        }
+    }
+    .consultation{
+        min-height: 490px;
+        .title_left{
+            font-size: 20px;
+        }
+        .subtitle_left{
+            font-size: 13px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 370px;
+        }
+    }
+    .catalog{
+        &__tab{
+            height: 30px;
+            font-size: 10px;
+            line-height: 28px;
+        }
+    }
+    .review{
+        &__item{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__text{
+            margin-top: 30px;
+            padding-left: 0;
+        }
+    }
+    .footer{
+        &__info{
+            width: 350px;
+            padding: 0 ;
+        }
+        &__social-item{
+            width: 50px;
+            height: 50px;
+            margin: 0 11px;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .container{
+        width: 270px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+        &__logo{
+            width: 90%
+        }
+        &__phone{
+            margin-top: 10px;
+            font-size: 23px;
+            text-align: center;
+        }
+        .button_header{
+            width: 100%;
+            
+        }
+    }
+    .promo{
+        &__wrapper{
+            margin-top: 25px;
+            align-items: center;
+        }
+        &__header{
+            text-align: center;
+            font-size: 30px;
+        }
+        &__subheader{
+            text-align: center;
+            font-size: 17px;
+        }
+        .button_main{
+            width: 90%;
+        }
+    }
+    .advantages{
+        &__item{
+            width: 100%;
+        }
+    }
+    .consultation{
+        padding-top: 40px;
+        .feed-form{
+            width: 100%;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 260px;
+        }
+    }
+    .catalog{
+        &__tabs{
+            padding-left: 0;
+            margin-top: 40px;
+            flex-direction: column;
+        }
+        &__tab{
+            margin-top: 10px;
+            height: 30px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+    }
+    .review{
+        &__item{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__text{
+            margin-top: 30px;
+        }
+    }
+    .footer{
+
+        &__info{
+            width: 180px;
+            padding: 10px 20px 0;
+            height: 180px;
+        }
+        &__address{
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+        &__phone{
+            margin: 10px 0 0 0;
+            font-size: 15px;
+        }
+        &__social{
+            margin-top:12px;
+            &-item{
+                height: 35px;
+                width: 35px;
+                margin: 0 5px;
+                img{
+                    height: 15px;
+                }
+            }
+        }
+    }
+    .modal{
+        width: 250px;
+        padding: 20px 15px;
+        .feed-form{
+            width: 220px;
+
+        }
+    }
+}
