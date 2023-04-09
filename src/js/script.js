@@ -103,5 +103,3 @@ $(document).ready(function(){
 
   new WOW().init();
 });
-
-testing git 
