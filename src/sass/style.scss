@@ -10,7 +10,10 @@ body{
     margin: 0 auto;
 }
 
-// @import"animate.css";
+@import "libs/animate";
+@import "libs/font";
+@import "libs/slick";
+
 @import "base/variables";
 @import "base/animation";
 
